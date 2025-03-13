@@ -2,7 +2,7 @@
 
 Welcome! This repository is used to share workshop materials and introduce participants to Git.
 
-About This Repository
+### About This Repository
 
 This repository includes:
 - Workshop preparation files (preparation.md & participants.md) to help you get started with Git and with using this repository.
