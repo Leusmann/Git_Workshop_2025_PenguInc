@@ -14,7 +14,7 @@ This repository includes:
 
 Working on our project requires only minimal knowledge of Markdown, making it easy to follow along.
 
-### Before the workshop: Follow the instructions in preparation.md to set up Git.
+### Before the workshop: Follow the instructions in preparation.md.
 ✅ Add your name to participants.md as part of the setup verification (last step of the workshop preparation).
 
 ❌ If you are unable to complete the preparation due to unresolved errors, please arrive at the workshop one hour early (9 AM) for assistance. However, please keep in mind that we may not be able to help all participants within this time.
