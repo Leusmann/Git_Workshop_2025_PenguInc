@@ -6,14 +6,15 @@ Welcome! This repository is used to share workshop materials and introduce parti
 
 This repository includes:
 - Workshop preparation files (preparation.md & participants.md) to help you get started with Git and with using this repository.
-- Our project "PinguInc", which serves as an example for practicing version control. Project files:
-1. PinguInc.md – The main project document.
-2. img/ – A folder containing images for the project.
-3. team/ – A folder for team-member-related content.
+- Our project "PinguInc", which serves as an example for practicing version control. 🐧 Project files include:
 
-We chose this project because it only requires minimal knowledge of Markdown, making it easy to follow along.
+  - PinguInc.md – The main project document.
+  - img/ – A folder containing images for the project.
+  - team/ – A folder for penguin-team-member-related content.
 
-Getting Started:
-- Follow the instructions in preparation.md to set up Git.
--> Add your name to participants.md as part of the setup verification.
-- Explore the PinguInc project and practice working with Git during the workshop! 🐧
+Working on our project requires only minimal knowledge of Markdown, making it easy to follow along.
+
+### Before the workshop: Follow the instructions in preparation.md to set up Git.
+✅ Add your name to participants.md as part of the setup verification (last step of the workshop preparation).
+
+❌ If you are unable to complete the preparation due to unresolved errors, please arrive at the workshop one hour early (9 AM) for assistance. However, please keep in mind that we may not be able to help all participants within this time.
