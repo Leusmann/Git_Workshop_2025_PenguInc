@@ -17,4 +17,4 @@ Working on our project requires only minimal knowledge of Markdown, making it ea
 ### Before the workshop: Follow the instructions in preparation.md.
 ✅ Add your name to participants.md as part of the setup verification (last step of the workshop preparation).
 
-❌ If you are unable to complete the preparation due to unresolved errors, please arrive at the workshop one hour early (9 AM) for assistance. However, please keep in mind that we may not be able to help all participants within this time.
+❌ If you encounter issues you cannot fix on your own during the preparation and need assistance, we invite you to arrive at the workshop one hour early (9 AM), where we will do our best to help. To ensure we can plan accordingly, please send us an email in advance if you require support. While we will try to assist everyone, time may be limited.
