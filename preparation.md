@@ -4,7 +4,7 @@ Welcome to the preparation for our Git Workshop! In this workshop, we'll explore
 
 First, you need a Git installation and a GitHub account.
 
-If you already have a working Git environment and a GitHub account, feel free to skip to [Verify Your Setup](#verify-your-setup). Otherwise, please follow the steps provided to set up your Environment.
+If you already have a working Git environment and a GitHub account, feel free to skip to "Verify Your Setup". Otherwise, please follow the steps provided to set up your Environment.
 
 ## Install Git
 
@@ -36,7 +36,7 @@ git config --global user.name "Firstname Surname"
 git config --global user.email "mail@example.com" 
 ```
 
-Then check the output again using the commands from [Step 1].(#step-1---check-git-configuration-for-name-and-mail)
+Then check the output again using the commands from "Configure Git - Step 1".
 
 You should get a response like this:
 ```bash
@@ -79,9 +79,9 @@ If there are any files called:
 - `id_ed25519`/`id_ed25519.pub`
 - or two files, one with and one without the `.pub` extension.
 
-Then you already have an ssh key and should proceed with [Step 2](#step-2---generate-an-ssh-key)
+Then you already have an ssh key and should proceed with "Github Setup".
 If the directory contains only the `known_hosts` file and perhaps a `config` file, or you receive an
-error that `~/.ssh` does not exist, proceed to [Step 2](#step-2---generate-an-ssh-key)
+error that `~/.ssh` does not exist, proceed to "Step 2".
 
 ### Step 2 - Generate an SSH Key
 
@@ -135,7 +135,7 @@ We will use Git in combination with GitHub. You will need an account and some Ba
 
 ### Step 1 - Create a GitHub Account
 
-If you don't have a GitHub account yet, go to the [github.com sign up Page](https://github.com/signup?ref_cta=Sign+up) and create onw. Otherwise, login to your GitHub account and proceed with [Step 2](#step-2---setup-ssh-key).
+If you don't have a GitHub account yet, go to the [github.com sign up Page](https://github.com/signup?ref_cta=Sign+up) and create onw. Otherwise, login to your GitHub account and proceed with "Step 2".
 
 ### Step 2 - Add Your SSH Key to GitHub
 
@@ -179,7 +179,7 @@ We will:
 Run the following:
 
 ```bash
-git clone git@github.com:your-username/git-course-test.git
+git clone git@github.com/anolte-DSC/Git_Workshop_2025_PenguInc.git
 cd git-course-test
 git switch -c $(git config --get user.email)
 echo $(git config --get user.name) >> participants.md
