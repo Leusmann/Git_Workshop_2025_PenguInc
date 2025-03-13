@@ -161,7 +161,7 @@ Next, add your SSH key to GitHub:
 4. Paste the output from the previous command inside the bash into the Key field. (You need to copy and paste everything from ssh-ed25519 to the end of the email address).
 3. Click "Add SSH Key".
 
-For more detailed instructions, see the [official GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+For more detailed instructions, Wir verwenden das von uns aufgesetzte repositorium mit dem wir in diesem Workshop arbeiten wollen.see the [official GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ## Verify your setup
 
