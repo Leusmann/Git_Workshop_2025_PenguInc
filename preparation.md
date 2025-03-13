@@ -176,11 +176,16 @@ We will:
 - Commit your changes to see if everything is recorded correctly.
 - View the commit log to verify your setup.
 
-Run the following:
+In bash, navigate to the directory where you want to clone the repository. For example, to place it on your Desktop, run:
+```bash
+cd /c/Users/user/Desktop
+```
+
+
+Next, run the following:
 
 ```bash
-git clone git@github.com/anolte-DSC/Git_Workshop_2025_PenguInc.git
-cd git-course-test
+git clone git@github.com:anolte-DSC/Git_Workshop_2025_PenguInc.git
 git switch -c $(git config --get user.email)
 echo $(git config --get user.name) >> participants.md
 git add participants.md
@@ -198,6 +203,7 @@ Date:   Wed May 29 12:23:51 2024 +0200
     I, Your Name, completed the setup
 ```
 
-If your output is not similar, there seems to be a problem with the setup.
-Take a look at the error message you received.
-If you can't fix this issue yourself, please arrive at the workshop one hour ealier (at 9 am), but please bear in mind that we cannot help all participants within one hour.
+To exit the log view and return to the command prompt, press "q".
+
+If your output is not similar, there seems to be a problem with the setup. Take a look at the error message you received.
+If you can't fix this issue yourself, please arrive at the workshop one hour ealier (at 9 am) and send us an email in advance.
