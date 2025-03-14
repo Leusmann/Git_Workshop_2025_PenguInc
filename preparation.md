@@ -129,6 +129,57 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
+# 1.4 Select a Working Directory
+
+Decide on a directory where you want to store your projects for this workshop. 
+
+### Step 1: Create or Select a Directory
+
+Choose a location on your computer where you want to store your Git projects. If you already have a preferred location, you can use it; otherwise, create a new directory. For example:
+
+```bash
+mkdir ~/GitWorkshop
+```
+
+### Step 2: Navigate to the Directory
+
+Move into the chosen directory using:
+
+```bash
+cd ~/GitWorkshop
+```
+
+### Step 3: Confirm You Are in the Right Directory
+
+Check the current directory to ensure you are in the right place:
+
+```bash
+pwd
+```
+
+This should display the path to the directory you just created or selected.
+
+## 1.4 Verify Your Git Setup
+
+Make sure you are in your working directory selected for the workshop. Then run the following repository initialization check to confirm Git is working:
+
+```bash
+mkdir GitTest
+cd GitTest
+git init
+touch testfile.txt
+git status
+```
+
+If Git is working correctly, the git status command should show a message indicating that you are on a new branch ("main" or "master") and that there are no committed changes yet.
+
+To clean up, you can remove the test directory:
+
+```bash
+cd ..
+rm -rf GitTest
+```
+
 # 2. GitHub Setup
 
 We will use Git in combination with GitHub. You will need an account and some Basic configurations on your computer.
@@ -161,49 +212,18 @@ Next, add your SSH key to GitHub:
 4. Paste the output from the previous command inside the bash into the Key field. (You need to copy and paste everything from ssh-ed25519 to the end of the email address).
 3. Click "Add SSH Key".
 
-For more detailed instructions, Wir verwenden das von uns aufgesetzte repositorium mit dem wir in diesem Workshop arbeiten wollen.see the [official GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+For more detailed instructions, see the [official GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-# 3. Verify Your Setup
+### Step 3: Test Your SSH Authentication
 
-Now that you've set up SSH authentication with GitHub, we need to test if everything is working correctly. The following step will a) confirm that your SSH key is properly linked to your GitHub Account; b) check if you can securely access repositories without entering a password; c) ensure that Git is using the correct email and name when you do something in Git.
-
-What are we doing in the verification exactly? You will learn about the keywords "branch", "commit", and "commit log" during the workshop.
-
-We will:
-- Clone a repository (download it from GitHub). We will use the repository with which we want to work in this workshop.
-- Create a new branch using your email as the name.
-- Add your name to a file to check if Git recognizes your identity.
-- Commit your changes to see if everything is recorded correctly.
-- View the commit log to verify your setup.
-
-In bash, navigate to the directory where you want to clone the repository. For example, to place it on your Desktop, run:
-```bash
-cd /c/Users/user/Desktop
-```
-
-
-Next, run the following:
+Run the following command:
 
 ```bash
-git clone git@github.com:anolte-DSC/Git_Workshop_2025_PenguInc.git
-git switch -c $(git config --get user.email)
-echo $(git config --get user.name) >> participants.md
-git add participants.md
-git commit -m "I, $(git config --get user.name), completed the setup"
-git log
+ssh -T git@github.com
 ```
 
-The last command should get you a response like:
+If everything is set up correctly, you should see a message like:
 
 ```bash
-commit 018ce0ba29fab3413f0e3207159ec9bf8e383d24 (HEAD -> your.email@example.com)
-Author: Your Name <your.email@example.com>
-Date:   Wed May 29 12:23:51 2024 +0200
-
-    I, Your Name, completed the setup
+Hi <your-github-username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-
-To exit the log view and return to the command prompt, press "q".
-
-If your output is not similar, there seems to be a problem with the setup. Take a look at the error message you received.
-If you can't fix this issue yourself, please arrive at the workshop one hour ealier (at 9 am) and send us an email in advance.
