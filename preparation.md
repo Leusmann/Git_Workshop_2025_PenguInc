@@ -159,7 +159,7 @@ pwd
 
 This should display the path to the directory you just created or selected.
 
-## 1.4 Verify Your Git Setup
+## 1.5 Verify Your Git Setup
 
 Make sure you are in your working directory selected for the workshop. Then run the following repository initialization check to confirm Git is working:
 
