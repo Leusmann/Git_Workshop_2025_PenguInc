@@ -129,7 +129,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-# 1.4 Select a Working Directory
+## 1.4 Select a Working Directory
 
 Decide on a directory where you want to store your projects for this workshop. 
 
