@@ -1,19 +1,25 @@
-# Git_Workshop_2025_PenguInc
+# 🐧 PinguInc Website – Git DSC Workshop 2025
 
-Welcome! This repository is used to share workshop materials and introduce participants to Git.
+Welcome to the collaborative PinguInc markdown-based website project!
 
-### About This Repository
+## 🧠 Scenario
 
-This repository includes:
-- Workshop preparation file (preparation.md) to help you get started with Git, GitHub and with using this repository.
-- Our project "PinguInc", which serves as an example for practicing version control. 🐧 Project files include:
+Kowalski from PinguInc wants you to completely overhaul their digital presence. He's formed three task groups:
 
-  - PinguInc.md – The main project document.
-  - img/ – A folder containing images for the project.
-  - team/ – A folder for penguin-team-member-related content.
+- 🧃 Marketing
+- 💰 Finances
+- 🛠️ Technique
 
-Working on our project requires only minimal knowledge of Markdown, making it easy to follow along.
+But… he’s **picky** and won’t let you touch the original repository directly. Instead:
 
-### Before the workshop: Follow the instructions in preparation.md. ✅ 
+## ✅ Your Mission
 
-❌ If you encounter issues you cannot fix on your own during the preparation and need assistance, we invite you to arrive at the workshop one hour early (9 AM), where we will do our best to help. To ensure we can plan accordingly, please send us an email in advance if you require support. While we will try to assist everyone, time may be limited.
+1. **Fork** this repository.
+2. Create a new **feature branch** named after your group:
+   - `feature/marketing`
+   - `feature/finances`
+   - `feature/technique`
+3. Do the following:
+   - Add a new markdown file in `sections/` (your group intro).
+   - Add **at least 5 new people** to the shared table in `data/team-members.md`.
+4. When done, **open a pull request**. Make sure it can be merged without conflicts!
